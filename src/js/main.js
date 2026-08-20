@@ -676,5 +676,5 @@ class App {
 }
 
 const app = new App();
-
+// chat gpt 100%
 app.start();

@@ -1347,7 +1347,7 @@ export class ProductsView {
   }
 }
 
-gi
+
 export class FoodLogView {
   constructor({ foodLog }) {
     this.foodLog = foodLog;

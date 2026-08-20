@@ -1363,6 +1363,7 @@ export class FoodLogView {
 
     this.clearBtn?.addEventListener("click", () => {
       if (confirm("Clear all logged meals for today?")) {
+        console.log("ay haga")
         this.foodLog.todayEntries.forEach((entry) =>
           this.foodLog.removeEntry(entry.id)
         );
